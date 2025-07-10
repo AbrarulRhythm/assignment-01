@@ -305,6 +305,17 @@
     .better-focus-content {
         padding: 3.125rem 3.750rem;
     }
+
+    /* [ Contact Section ] */
+    /*================================================== */
+    .contact.section-ptb {
+        padding-top: 0;
+    }
+
+    .contact-head {
+        font-size: 4.375rem;
+        margin-bottom: 2.5rem;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -367,5 +378,11 @@
 
     .better-focus-banner img {
         border-radius: 38px;
+    }
+
+    /* [ Contact Section ] */
+    /*================================================== */
+    .contact-head {
+        font-size: 2.875rem;
     }
 }

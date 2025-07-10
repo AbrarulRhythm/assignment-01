@@ -22,6 +22,7 @@ Version: 1.0.0
     + Productive Users Section
     + Users Feedback Section
     + Ready to focus better
+    + Contact Section
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -96,6 +97,10 @@ img {
 ::selection {
     color: #FFF;
     background-color: var(--primary-color);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(0, 0, 0, 50%);
 }
 
 .primary-color {
@@ -412,4 +417,52 @@ img {
 
 .better-focus-banner img {
     border-radius: 48px;
+}
+
+/* [ Contact Section ] */
+/*================================================== */
+.contact.section-ptb {
+    padding-top: 2.5rem;
+}
+
+.contact-head {
+    font-size: 6.063rem;
+    font-weight: 700;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.188rem;
+}
+
+.contact-form .form-group label {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 0.625rem;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    font-family: var(--font-Inter);
+    width: 100%;
+    padding: 1.250rem 2rem;
+    background-color: #FFF;
+    font-size: 1.25rem;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.contact-form .form-group textarea {
+    resize: vertical;
+}
+
+.contact-form form button {
+    width: 100%;
 }
