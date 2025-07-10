@@ -19,7 +19,8 @@ Version: 1.0.0
         - Nav
         - Hero
     + Action Section
-    + Productive Users
+    + Productive Users Section
+    + Users Feedback Section
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -274,7 +275,7 @@ img {
     border-radius: 48px;
 }
 
-/* [ Productive Users ] */
+/* [ Productive Users Section ] */
 /*================================================== */
 .productive-users.section-ptb {
     padding-top: 0;
@@ -305,4 +306,78 @@ img {
     font-size: 1.25rem;
     font-weight: 400;
     color: rgb(0, 0, 0, 50%);
+}
+
+/* [ Users Feedback Section ] */
+/*================================================== */
+.users-feedback.section-ptb {
+    padding-top: 0;
+    padding-bottom: 6rem;
+}
+
+.users-feedback .section-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.users-feedback .row .col-12 {
+    margin-bottom: 20px;
+}
+
+.user-feedback-wrapper {
+    padding: 24px;
+    background-color: #FFF;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+}
+
+.user-feedback-wrapper .review-star {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.user-feedback-wrapper .review-star li:not(:first-child) {
+    margin-left: 4px;
+}
+
+.user-feedback-wrapper>h3 {
+    font-family: var(--font-Inter);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.user-feedback-wrapper>p {
+    color: #1E1E1E;
+}
+
+.user-feedback-wrapper .user-info {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.user-feedback-wrapper .user-info img {
+    border-radius: 50%;
+}
+
+.user-feedback-wrapper .user-info>div {
+    margin-left: 12px;
+}
+
+.user-feedback-wrapper .user-info div>strong,
+.user-feedback-wrapper .user-info div>span {
+    display: block;
+    font-size: 16px;
+}
+
+.user-feedback-wrapper .user-info div>strong {
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.user-feedback-wrapper .user-info div>span {
+    color: #B3B3B3;
 }
