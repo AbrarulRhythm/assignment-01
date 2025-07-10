@@ -249,6 +249,12 @@
 
 @media screen and (max-width: 991px) {
 
+    /*** Common CSS ***/
+    .section-ptb {
+        padding-top: 5.625rem;
+        padding-bottom: 5.625rem;
+    }
+
     /*** Buttons ***/
     .button {
         padding: .81rem 2rem;
@@ -263,6 +269,16 @@
         font-size: 3.625rem;
         margin-bottom: 1.5rem;
     }
+
+    /* [ Action Section ] */
+    /*================================================== */
+    .action-content {
+        margin-bottom: 3rem;
+    }
+
+    .action-image img {
+        margin: auto;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -274,5 +290,16 @@
 
     .hero-content .hero-head {
         font-size: 2.250rem;
+    }
+
+    /* [ Action Section ] */
+    /*================================================== */
+    .action-content {
+        text-align: center;
+        margin-bottom: 2.375rem;
+    }
+
+    .action-content h2 {
+        margin-bottom: 0.5rem;
     }
 }

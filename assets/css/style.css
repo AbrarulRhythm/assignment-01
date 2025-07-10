@@ -116,6 +116,14 @@ img {
     padding-bottom: 7.250rem;
 }
 
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
 /*** Container Default CSS ***/
 .container {
     width: 100%;
@@ -242,4 +250,25 @@ img {
     font-weight: 700;
     margin: 0 auto 2.313rem auto;
     max-width: 900px;
+}
+
+/* [ Action Section ] */
+/*================================================== */
+.action-content h2 {
+    font-size: 2.625rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.action-content p {
+    font-family: var(--font-Raleway);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.action-image img {
+    display: block;
+    margin-left: auto;
+    border-radius: 48px;
 }
