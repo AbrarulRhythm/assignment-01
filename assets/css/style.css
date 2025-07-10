@@ -21,6 +21,7 @@ Version: 1.0.0
     + Action Section
     + Productive Users Section
     + Users Feedback Section
+    + Ready to focus better
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -380,4 +381,35 @@ img {
 
 .user-feedback-wrapper .user-info div>span {
     color: #B3B3B3;
+}
+
+/* [ Ready to focus better ] */
+/*================================================== */
+.better-focus.section-ptb {
+    padding-top: 0;
+}
+
+.better-focus-content {
+    padding: 4.438rem 9.375rem;
+    background-color: #FFF;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.better-focus-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.better-focus-content p {
+    margin-bottom: 1.25rem;
+}
+
+.better-focus-content .better-focus-banner {
+    margin-top: 1.25rem;
+}
+
+.better-focus-banner img {
+    border-radius: 48px;
 }

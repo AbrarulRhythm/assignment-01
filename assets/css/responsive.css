@@ -299,6 +299,12 @@
     .users-feedback.section-ptb {
         padding-bottom: 4.375rem;
     }
+
+    /* [ Ready to focus better ] */
+    /*================================================== */
+    .better-focus-content {
+        padding: 3.125rem 3.750rem;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -347,5 +353,19 @@
 
     .productive-users-content .number-subtitle {
         font-size: 1.125rem;
+    }
+
+    /* [ Ready to focus better ] */
+    /*================================================== */
+    .better-focus-content {
+        padding: 1.875rem 1rem;
+    }
+
+    .better-focus-content h1 {
+        font-size: 2.375rem;
+    }
+
+    .better-focus-banner img {
+        border-radius: 38px;
     }
 }
