@@ -385,4 +385,20 @@
     .contact-head {
         font-size: 2.875rem;
     }
+
+    /* [ Footer Style ] */
+    /*================================================== */
+    .footer.section-ptb {
+        padding-top: 3.75rem;
+        padding-bottom: 3.75rem;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+    }
+
+    .footer-nav ul li:not(:last-child) {
+        margin-right: unset;
+        margin-bottom: 0.750rem;
+    }
 }

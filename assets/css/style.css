@@ -23,6 +23,7 @@ Version: 1.0.0
     + Users Feedback Section
     + Ready to focus better
     + Contact Section
+    + Footer Style
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -465,4 +466,49 @@ img {
 
 .contact-form form button {
     width: 100%;
+}
+
+/* [ Footer Style ] */
+/*================================================== */
+.footer {
+    text-align: center;
+    background-color: #FFF;
+}
+
+.footer-logo {
+    font-family: var(--font-Inter);
+    font-size: 6.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.footer-logo a {
+    color: var(--primary-color);
+}
+
+.footer p {
+    max-width: 33.188rem;
+    margin: auto;
+}
+
+.footer .footer-nav {
+    margin-top: 1.25rem;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.footer-nav ul a {
+    color: #8987A1;
+}
+
+.footer-nav ul a:hover {
+    color: var(--primary-color);
 }
