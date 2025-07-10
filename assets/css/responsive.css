@@ -279,6 +279,20 @@
     .action-image img {
         margin: auto;
     }
+
+    /* [ Productive Users ] */
+    /*================================================== */
+    .productive-users-content {
+        padding: 3.125rem 3.75rem;
+    }
+
+    .productive-users-content>h2 {
+        margin-bottom: 1.75rem;
+    }
+
+    .productive-users-content .number {
+        font-size: 3.625rem;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -301,5 +315,31 @@
 
     .action-content h2 {
         margin-bottom: 0.5rem;
+    }
+
+    /* [ Productive Users ] */
+    /*================================================== */
+    .productive-users-content {
+        padding: 3rem 2rem 0.75rem 2rem;
+    }
+
+    .productive-users-content .row {
+        justify-content: center;
+    }
+
+    .productive-users-content .row .col-6 {
+        margin-bottom: 1.5rem;
+    }
+
+    .productive-users-content>h2 {
+        font-size: 2.125rem;
+    }
+
+    .productive-users-content .number {
+        font-size: 2.875rem;
+    }
+
+    .productive-users-content .number-subtitle {
+        font-size: 1.125rem;
     }
 }

@@ -19,6 +19,7 @@ Version: 1.0.0
         - Nav
         - Hero
     + Action Section
+    + Productive Users
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -271,4 +272,37 @@ img {
     display: block;
     margin-left: auto;
     border-radius: 48px;
+}
+
+/* [ Productive Users ] */
+/*================================================== */
+.productive-users.section-ptb {
+    padding-top: 0;
+}
+
+.productive-users-content {
+    background-color: rgba(77, 71, 255, 10%);
+    border-radius: 24px;
+    padding: 3.125rem 8.875rem;
+    text-align: center;
+}
+
+.productive-users-content>h2 {
+    font-size: 2.375rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.productive-users-content .number {
+    font-family: var(--font-Inter);
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.productive-users-content .number-subtitle {
+    font-family: var(--font-Inter);
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 50%);
 }
